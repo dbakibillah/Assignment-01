@@ -240,3 +240,67 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* need-support section */
+.need-support {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.need-support-content {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.need-support-title {
+    color: #ffffff;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.need-support-text {
+    color: #ffffff;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.need-support-input {
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    opacity: 0.8;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.need-support-btn {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
