@@ -178,13 +178,14 @@ nav {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .my-inspiration-second {
     width: 1140px;
     height: 614px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .my-inspiration-video {
@@ -193,4 +194,49 @@ nav {
     height: 550px;
     display: block;
     margin: 0 auto;
+}
+
+/* my-current-target section */
+.my-current-target {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.my-current-target-cards {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.mct-card-content {
+    width: 284px;
+    height: 219px;
+    padding: 50px;
+    margin: 32px;
+}
+
+.mct-card-title {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mct-card-text {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mct-learn-more {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
 }
