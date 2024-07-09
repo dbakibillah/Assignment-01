@@ -150,3 +150,47 @@ nav {
     font-size: 20px;
     opacity: 0.7;
 }
+
+/* my-inspiration section */
+.my-inspiration {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+
+.my-inspiration-first {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.my-inspiration-title {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.my-inspiration-text {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.my-inspiration-second {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.my-inspiration-video {
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+}
