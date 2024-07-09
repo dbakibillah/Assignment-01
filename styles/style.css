@@ -35,7 +35,6 @@ nav {
 /* banner styles */
 .banner {
     text-align: center;
-    /* border: 1px solid #0D1321; */
     width: 1440px;
     height: 652px;
     margin: 0 auto;
@@ -81,19 +80,17 @@ nav {
 
 /* web-development section styles */
 .web-development {
-    border: 1px solid #0D1321;
     width: 1140px;
     height: 1393px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .why-web-outer {
-    border: 1px solid #0D1321;
     width: 946px;
     height: 1233px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .why-web-inner {
@@ -118,20 +115,18 @@ nav {
     text-align: center;
 }
 
-.card-1 {
-    margin-top: 100px;
+.card {
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
 }
 
-.card-1-content {
+.card-content {
     width: 477px;
     height: 219px;
-    /* text-align:left */
 }
 
-.card-1-title {
+.card-title {
     color: #0D1321;
     opacity: 0.7;
     font-family: Azeret Mono;
@@ -139,7 +134,7 @@ nav {
     font-weight: 800;
 }
 
-.card-1-text {
+.card-text {
     color: #0D1321;
     opacity: 0.8;
     font-family: Azeret Mono;
@@ -147,7 +142,7 @@ nav {
     font-weight: 400;
 }
 
-.card-1-btn {
+.card-btn {
     margin-top: 30px;
     width: 171px;
     height: 47px;
