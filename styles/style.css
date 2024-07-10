@@ -241,17 +241,48 @@ nav {
     font-weight: 400;
 }
 
+/* my-next-target section */
+.my-next-target {
+    width: 1140px;
+    height: 890px;
+    margin: 0 auto;
+}
+
+.my-next-target-cards {
+    width: 1140px;
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-img {
+    width: 145px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+.card-descript {
+    width: 892px;
+    height: 140px;
+}
+
 /* need-support section */
 .need-support {
     width: 1140px;
     height: 313px;
     margin: 0 auto;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
+    margin-top: 50px;
 }
 
 .need-support-content {
