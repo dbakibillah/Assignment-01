@@ -257,7 +257,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 .card-img {
@@ -333,6 +333,7 @@ nav {
     font-size: 16px;
     font-weight: 600;
     border: none;
+    margin-left: 20px;
 }
 
 /* footer styles */
